@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head><title>Image slider</title>
+    <style type="text/css">
+    body{
+        background-color: beige;
+    }
+    #slider{
+        overflow:hidden;
+    }
+    #slider figure{
+        position:relative;
+        width:500%;
+        margin:0;
+        left:0;
+        animation: 15s slider infinite;
+    }
+    #slider figure img{
+        width:10%;
+        float:left;
+    }
+    @keyframes slider{
+        0%{
+            left:0;
+        }
+        20%{
+            left:0;
+        }
+        25%{
+           left: -100%;
+        }
+        45%{
+            left:-100%;
+        }
+        50%{
+            left:-200%;
+        }
+        70%{
+            left:-200% 
+        }
+        75%{
+            left:-300%;
+        }
+        95%{
+            left:- 300%;
+        }
+        100%{
+            left:-300%;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <center>
+        <p><b>WELCOME TO MERU UNIVERSITY EMS</b></p>
+    <p>Meru University of Science and Technology EMS has all what you need.</p>
+    <p>EMS offers a platform for you to register,interact and also  learn more about the activities that take place outside classwork.</p>
+    <p>Meru University offers a wide range of extracurricular activities around campus.</p>
+    <p>Are you a techie,or are you into sports,art,innovation  you name it, EMS is the place to be.</p>
+    
+</center>
+    <div id="slider">
+        <figure>
+    <img src="images/about1.jpg">
+    <img src="images/about2.jpg">
+    <img src="images/about3.jpg">
+    <img src="images/about4.jpg">
+    <img src="images/about5.jpg">
+    <img src="images/about6.jpg">
+    <img src="images/about7.jpg">
+    <img src="images/about8.jpg">
+        </figure>
+    </div>
+</body>
+</html>
