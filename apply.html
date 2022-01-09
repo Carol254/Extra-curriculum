@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+        }
+        h1{
+            color: #fff;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color:#444;
+            position: fixed;
+            height:100%;
+            overflow: auto;
+
+        }
+        
+        li a {
+            display: block;
+            color: #fff;
+            padding: 32px 0 32px 16px;
+            text-decoration: none;
+        }
+        
+        li a.active {
+            background-color: pink;
+            color: #000;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+        .subnav{
+          float:left;
+          overflow:hidden;
+        }
+        .subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  z-index: 1;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  left:0;
+  background-color:#555;
+  width: 100%;
+  z-index:  1;
+}
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+        * {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+  border-radius: 25px;
+}
+
+.fa {font-size:50px;}
+        </style>
+</head>
+<body>
+    <ul>
+        <h1><b><u><font size=5>EXTRACURRICULAR ACTIVITIES</font></u></b></h1>
+        <li><a href="#home">Outdoor Games</a></li>
+        <div class="subnav">
+          <button class="subnavbtn">Types</button>
+          <div class="subnav-content">
+            <a href="football.html">Football ,</a> 
+            <a href="#Netball">Netball ,</a> 
+            <a href="#Hockey">Hockey ,</a> 
+            <a href="#Basketball">Basketball ,</a> 
+            <a href="#Volleyball">Volleyball ,</a> 
+            <a href="#Floorball">Floorball </a>
+          </div><br><br>
+        <li><a href="#news">Indoor Games</a></li>
+        <div class="subnav">
+          <button class="subnavbtn">Types</button>
+          <div class="subnav-content">
+            <a href="#Chess">Chess ,</a>
+            <a href="#Scrabble">Scrabble ,</a>
+            <a href="#Badminton">Badminton ,</a>
+            <a href="#Cards">Cards ,</a>
+            <a href="#Ludo">Ludo ,</a>
+            <a href="#Monopoly">Monopoly</a>
+          </div>
+        <li><a href="#contact">Innovation Clubs</a></li>
+        <div class="subnav">
+          <button class="subnavbtn">Types</button>
+          <div class="subnav-content">
+            <a href="#Robotics">Robotics ,</a>
+            <a href="#Android">Android ,</a>
+            <a href="#Web">Web ,</a>
+            <a href="#Graphics">Graphics ,</a>
+            <a href="#Marchine Learning">Machine Learning</a>
+          </div>
+        <li><a href="#about">Environmental Movements</a></li>
+        <div class="subnav">
+          <button class="subnavbtn">Types</button>
+          <div class="subnav-content">
+            <a href="#Green Belt">Green Belt ,</a>
+            <a href="#Eco club">Eco club </a>
+          </div>
+        <li><a href="#about">Agriculture Clubs</a></li>
+        <div class="subnav">
+          <button class="subnavbtn">Types</button>
+          <div class="subnav-content">
+            <a href="#Horticulture">Horticulture ,</a>
+            <a href="#Agric club">Agric Club</a>
+          </div>
+        <li><a href="#about">Swimming</a></li>
+        <li><a href="#about">Drama</a></li>
+        <li><a href="#about">Music </a></li>
+        <div class="subnav">
+          <button class="subnavbtn">About</button>
+          <div class="subnav-content">
+            <a href="#Poetry">Poetry,</a>
+            <a href="#Dance">Dance ,</a>
+            <a href="#Singing">Singing ,</a>
+            <a href="#Spoken word">Spoken word</a>
+          </div>
+        <li><a href="#about">Food Technology</a></li>
+      </ul>
+      <div style="margin-left:25%;padding:1px 16px;height:1000px;
+      background-image: url(images/forest.jpg); 
+      background-size: cover;
+      color:#000;">
+        <h2><center>MERU UNIVERSITY EMS</center></h2>
+        <h3>Kindly select the activity you would wish to join and register</h3>
+        <p>Registration is open to every student</p>
+        <p><b><u>OUR GOALS</u></b></p>
+        <p>The primary goals of extracurricular activities focus on the individual student level, the institutional level, and the broader community level. 
+            These activities exist to complement the university's academic curriculum and to augment the student's educational experience.We would wish for the holistic growth of a student.</p>
+<p>Extracurricular activities have several advantages examples include Learn new skills,Boost academic performance,Broader social skills and Improved time management.</p>
+                <i>"Lack of activity destroys the good condition of every human being,while movement and methodical physical exercise save it and preserve it" (Plato)</i></p>
+                <br>
+      <div class="row">
+          <div class="column">
+            <div class="card">
+                <p><i class="fa fa-user"></i></p>
+                <h3>11+</h3>
+                <p>Clubs</p>
+              </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <p><i class="fa fa-gamepad"></i></p>
+              <h3>20+</h3>
+              <p>Games</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <p><i class="fa fa-smile-o"></i></p>
+              <h3>100+</h3>
+              <p>Fun activities</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <p><i class="fa fa-check"></i></p>
+              <h3>100+</h3>
+              <p>Movements</p>
+            </div>
+          </div>
+
+      </div>
+      </div>
+</body>
+</html>

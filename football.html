@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport"
+    content ="width=device-width,initial-scale=1.0">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            background-color:#33b5e5;
+            background-size: cover;
+        }
+        .row:after{
+content: "";
+clear: both;
+display:block;
+        }
+        [class*="col-"]{
+            float: left;
+            padding: 15px;
+        }
+        .header{
+            background-color:#33b5e5;
+            color:#000;
+            padding:15px;
+            text-align: center;
+        }
+        
+        .menu ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+        }
+    .menu li{
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color:#0099cc;
+        background-size: cover;
+        color: #ffff;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+         0 1px 2px rgba(0,0,0,0.24);
+} 
+   .menu li:hover{
+    background-color: #0099cc;
+   } 
+   .aside{
+    background-color: #0099cc;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+     0 1px 2px rgba(0,0,0,0.24);  
+   }
+   .footer {
+    background-color: #0099cc;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+   }
+   .fa{
+       padding:20px;
+       font-size: 30px;
+       width:70px;
+       text-align: center;
+       text-decoration: none;
+       margin:5px 2px;
+   }
+   .fa.hover{
+       opacity:0.7;
+   }
+   .fa-facebook{
+       background:#3B5998;
+       color: #ffff;
+   }
+   .fa-twitter{
+       background:#55ACEE;
+       color:#ffff;
+   }
+   .fa-youtube{
+       background:#bb0000;
+       color: #ffff;
+   }
+   .fa-instagram{
+       background:#125688;
+       color: #ffff;
+   }
+   /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>FOOTBALL CLUB</h1>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class ="col-3 col-m-3 menu">
+                <ul>
+                    <li>Current Members profiles</li>
+                    <li>News and Updates</li>
+                    <li>Schedules and events</li>
+                </ul>
+            </div>
+            <div class="col-6 col-m-9">
+                <h1>Welcome to Must football club</h1>
+                    <p>We are glad to have you here</p>
+                          <h3 class="text-center">TOUR DATES</h3>
+                          <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+                          <ul>
+                            <li>September </li>
+                            <li>October </li> 
+                            <li>November </li> 
+                          </ul>   
+                          <table style="width:100%">
+                            <p><b>Leaderboard 2019-2021</b></p>
+                            <tr>
+                              <th>Year</th>
+                              <th>Position</th>		
+                              <th>Points</th>
+                            </tr>
+                            <tr>
+                              <td>2021</td>
+                              <td>2/10</td>		
+                              <td>40</td>
+                            </tr>
+                            <tr>
+                              <td>2020</td>
+                              <td>2/10</td>		
+                              <td>56</td>
+                            </tr>
+                            <tr>
+                              <td>2019</td>
+                              <td>4/15</td>		
+                              <td>80</td>
+                            </tr>
+                          </table>   
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam numquam 
+                              explicabo nesciunt ab quod officia vero nam aperiam 
+                              facere ipsum placeat cum qui tempore aliquid, cupiditate a aspernatur pariatur. Et?</p>   
+                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam numquam 
+                                explicabo nesciunt ab quod officia vero nam aperiam 
+                                facere ipsum placeat cum qui tempore aliquid, cupiditate a aspernatur pariatur. Et?</p>   
+<p>Here are the highlights for the season</p>
+<p>Jan 13-14 2022 -MERU OPENS</p>
+<p>Jan 27th-FRIENDLIES</p>
+<p>Feb 14th-KUSA GAMES opens</p>
+<p>March 20th-KUSA regionals</p>
+<p>April 7th-KUSA Finals</p>
+                                
+            </div>
+    
+            <div class="col-3 col-m-12">
+                <div class="aside">
+                    <h2>What?</h2>
+                       <p> Must Football Club is meant to build talents</p>
+                       <h2>Where?</h2>
+                       <p> At the football pitch</p>
+                       <h2>When?</h2>
+                       <p>We meet for practices every day except Sundays </p>  
+                </div>
+            </div>
+        </div>
+            <div class="footer">
+                <p>Contact Information</p>
+                                <p>Phone +254747899302</p>
+                                <p>Email:football@must.ac.ke</p>
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                <p>All rights reserved @2021</p>
+            </div>
+        </div>
+    </body>
+</html>
